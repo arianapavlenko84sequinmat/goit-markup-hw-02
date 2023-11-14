@@ -1,0 +1,264 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    font-family:
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.menu-link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #fd9222;
+}
+/* Top Line */
+
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+
+
+/* Top line bg */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+/* WHITE
+
+Header background, team card background
+*/
+background: #FFFFFF;
+/* CORNFLOWER */
+border-bottom: 1px solid #E7E9FC;
+
+
+/* +11 (000) 111-11-11 */
+
+position: absolute;
+width: 151px;
+height: 24px;
+left: 1133px;
+top: 24px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* SLATE */
+color: #434455;
+
+
+
+/* info@devstudio.com */
+
+position: absolute;
+width: 153px;
+height: 24px;
+left: 940px;
+top: 24px;
+
+/* Body */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* SLATE */
+color: #434455;
+
+
+
+/* Menu Nav */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+position: absolute;
+width: 261px;
+height: 24px;
+left: 347px;
+top: 24px;
+
+
+
+/* Studio */
+
+width: 48px;
+height: 24px;
+
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Portfolio */
+
+width: 66px;
+height: 24px;
+
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Contacts */
+
+width: 67px;
+height: 24px;
+
+/* Body Medium */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Logo */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 115px;
+height: 24px;
+left: 156px;
+top: 24px;
+
+
+
+/* Web */
+
+width: 44px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+color: #4D5AE5;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Studio */
+
+width: 71px;
+height: 21px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height, or 117% */
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
