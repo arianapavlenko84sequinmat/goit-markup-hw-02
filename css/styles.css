@@ -59,7 +59,7 @@ color: #2E2F42;
         word-wrap: break-word;
         font-style: normal;
 }
-.contact-list-link link:hover,
+.list-address-item:hover,
 :focus {
     color: #404bbf;
 }
