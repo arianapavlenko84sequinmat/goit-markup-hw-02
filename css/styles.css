@@ -60,8 +60,8 @@ color: #2E2F42;
         font-style: normal;
 }
 .list-address-item:hover,
-:focus {
-    color: #404bbf;
+:focus{
+    color:#404bbf;
 }
 
 
