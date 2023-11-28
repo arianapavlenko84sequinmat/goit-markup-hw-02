@@ -236,3 +236,6 @@ color: var(--IRIS, #4D5AE5);
 .effective_solutions {
     background-color: #2e2f42;
 }
+ul, ol {
+    list-style-type: none;
+}
