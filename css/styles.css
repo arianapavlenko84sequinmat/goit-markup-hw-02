@@ -46,10 +46,10 @@ color: #2E2F42;
 :focus{
     color: #404bbf;
 }
-.contact_list {
+.text-address {
     font-style: normal
 }
-.contact-list-link link {
+.list-address-item {
     color: #434455;
         font-size: 16px;
         font-family: Roboto;
