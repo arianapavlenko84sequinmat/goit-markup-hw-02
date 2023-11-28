@@ -41,7 +41,7 @@ color: #2E2F42;
     letter-spacing: 0.32px;
     word-wrap: break-word
 }
-.list-address-item {
+.contact-list {
     color: #434455;
         font-size: 16px;
         font-family: Roboto;
@@ -51,7 +51,7 @@ color: #2E2F42;
         word-wrap: break-word;
         font-style: normal;
 }
-.list-address: hover, focus {
+.contact-list: hover, focus {
     color: #404bbf;
 }
 
@@ -186,7 +186,7 @@ color: var(--CLOUD, #F4F4FD);
 }
 
 .page-header {
-    color: var(--IRIS, #4D5AE5);
+    color: #4D5AE5;
         font-family: Raleway,
             sans-serif;
         font-size: 18px;
