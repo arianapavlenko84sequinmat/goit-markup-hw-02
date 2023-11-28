@@ -42,12 +42,12 @@ color: #2E2F42;
     word-wrap: break-word
 }
 
-.menu-link: hover, focus {
+.menu-link:hover,
+:focus{
     color: #404bbf;
 }
 
-.contacts_mail,
-.contacts_tel {
+.contact-list-link link {
     color: #434455;
         font-size: 16px;
         font-family: Roboto;
@@ -57,7 +57,7 @@ color: #2E2F42;
         word-wrap: break-word;
         font-style: normal;
 }
-.contact-list:hover,
+.contact-list-link link:hover,
 :focus {
     color: #404bbf;
 }
@@ -117,7 +117,7 @@ color: #2E2F42;
         font-weight: 700;
         text-transform: capitalize;
         line-height: 1.11;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.02em;
         word-wrap: break-word;
         background-color: #F4F4FD;
         text-align: center;
@@ -150,7 +150,7 @@ color: #2E2F42;
         font-weight: 700;
         text-transform: capitalize;
         line-height: 1.11;
-        letter-spacing: 0.25em;
+        letter-spacing: 0.02em;
         word-wrap: break-word;
         text-align: center;
 }
