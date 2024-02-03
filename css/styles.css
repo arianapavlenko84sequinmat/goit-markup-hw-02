@@ -30,6 +30,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
+    margin-left: 156px;
 }
 
 .menu-link {
@@ -39,7 +41,9 @@ color: #2E2F42;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    padding: 24px 0;
+    display: block;
 }
 
 .menu-link:hover,
@@ -78,9 +82,9 @@ color: #2E2F42;
      background-color: #2e2f42;
      text-align: center;
      font-style: normal;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 188px;
+    padding-left: 472px;
+    padding-right: 472px;
+    padding-top: 188px;
 
  }
 
@@ -93,6 +97,10 @@ color: #2E2F42;
         letter-spacing: 0.64px;
         word-wrap: break-word;
         background-color: #4D5AE5;
+        max-width: 169px;
+        height: 56px;
+        margin: 48px;
+
 }
 
 .prerogatives-list-title {
@@ -206,6 +214,8 @@ color: var(--CLOUD, #F4F4FD);
         font-weight: 700;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        border-bottom: 1px solid var(--cornflower);
+
       
 }
 
@@ -256,50 +266,85 @@ p  {
     margin-bottom: 0;
 }
 ul, ol  {
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
 }
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
-.header-container {
-    display: flex;
-    width: 1440px;
-        height: 72px;
-        flex-shrink: 0;
-        margin-left: 156;
-        margin-right: 78;
-        padding-top: 24;
-        padding-bottom: 24;
-        justify-content: space-between;
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.page-navigation {
-    display:flex;
-    justify-content: space-between;
+.container-header {
+display: flex;
+align-items: center;
 
 }
-.menu list {
-    display: inline-flex;
-    column-gap: 40;
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-list {
+    display: flex;
+    align-items: center;
     
 }
-.list-menu {
-    list-style-type: none;
-    display: block;
-    padding-top: 24;
-    padding-bottom: 24;
+.menu-item  {
+    margin-right: 40px;
+    margin-left: 40px;
 }
-.container-effective-solutions {
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-}
-.container-team {
-    width: 264px;
-     height: 104px;
-    top: 792px;
-     left: 1020px;
-    gap: 8px;
+.address {
+    margin-left: auto;
 }
 
+.address-list {
+    display: flex;
+    gap: 40px;
+   
+   
+
+}
+.container-solutions {
+
+padding-top: 188px;
+padding-left: 472px;
+padding-right: 472px;
+padding-bottom: 292px;
+display: flex;
+}
+.container-team {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+    
+}
+
+.container-footer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 156px;
+    margin-right: 1020px;
+    display: inline-block;
+}
+.container-portfolio {
+    display: flex;
+ flex-direction: row;
+flex-wrap: wrap;
+    
+}
+.container-prerogatives {
+flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+
+
+}
